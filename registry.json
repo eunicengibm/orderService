@@ -1,0 +1,26 @@
+{
+  "servers": [
+{
+      "id": "github-mcp",
+      "name": "GitHub Official MCP Server",
+      "description": "Official GitHub MCP server for Copilot integration",
+      "url": "https://api.github.com/mcp",
+      "authentication": {
+        "type": "oauth",
+        "endpoint": "https://github.com/login/oauth/authorize"
+      }
+    },
+    {
+      "id": "atlassian-mcp",
+      "name": "Atlassian MCP Server",
+      "description": "Official Atlassian MCP server for Copilot integration",
+      "url": "https://api.atlassian.com/mcp",
+      "authentication": {
+        "type": "oauth",
+        "endpoint": "https://auth.atlassian.com/authorize"
+      }
+    }
+  ],
+  "total_count": 2,
+  "updated_at": "2025-10-24T12:00:00Z"
+}
